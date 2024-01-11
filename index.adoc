@@ -1,3 +1,8 @@
+---
+layout: info
+permalink: /sample/
+---
 = wow
 
+:page-short-name: slug
 image::media/2024-01-11-19-22-27.png[]
