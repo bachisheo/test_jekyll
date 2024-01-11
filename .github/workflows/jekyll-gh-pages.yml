@@ -40,8 +40,8 @@ jobs:
           destination: ./_site
 
       - run: "sudo apt-get install asciidoctor"
-      - run: "asciidoctor 'index.adoc' -D _site"
-      - run: "cp -r 'media' _site"
+      - run: "asciidoctor 'index.adoc' -D _site\rec"
+      - run: "cp -r 'media' _site\rec"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
